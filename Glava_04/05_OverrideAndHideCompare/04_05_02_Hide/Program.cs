@@ -1,19 +1,5 @@
-﻿// UpCasting
-Employee employee = new Employee("Tom", "Microsoft");
-Person person = employee;
-Console.WriteLine(person.Name);
-
-Person bob = new Client("Bob", "CosmosBank");
-
-// DownCasting
-Employee employee2 = new Employee("Bob", "Intel");
-Person person2 = employee2;
-Employee employee3 = (Employee)person2;
-Console.WriteLine($"{employee3.Name}, {employee3.Company}");
-
-object obj1 = new Employee("Bill", "Microsoft");
-Employee employee1 = (Employee)obj1;
-
+﻿Person tom = new Employee("Tom", "Microsoft");
+tom.Print();
 
 // методы Object
 Person personObj = new Person("Tom");
@@ -33,7 +19,7 @@ class Person
     }
     public void Print()
     {
-        Console.WriteLine($"Person {Name}");
+        Console.WriteLine(Name);
     }
 }
 
@@ -43,6 +29,11 @@ class Employee : Person
     public Employee(string name, string company) : base(name)
     {
         Company = company;
+    }
+
+    public new void Print()
+    {
+        Console.WriteLine($"{Name} работает в {Company}");
     }
 }
 
@@ -54,7 +45,7 @@ class Company
 class Client : Person
 {
     public string Bank { get; set; }
-    public Client(string name, string bank) : base(name) 
+    public Client(string name, string bank) : base(name)
     {
         Bank = bank;
     }
