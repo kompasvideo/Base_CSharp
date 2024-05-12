@@ -1,6 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Person<int> tom = new Person<int>(546, "Tom");  // упаковка не нужна
+Person<string> bob = new Person<string>("abc123", "Bob");
 
+int tomId = tom.Id; // распаковка не нужна
+string bobId = bob.Id;
+
+Console.WriteLine(tomId); // 546
+Console.WriteLine(bobId); // abc123
 
 class Person<T>
 {
