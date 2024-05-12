@@ -3,7 +3,7 @@ Person<string> person10 = new MixedPeople<string, int>("9867", 35678);
 Console.WriteLine(person9.Id);
 Console.WriteLine(person10.Id);
 
-class Person<T>
+class Person<T> where T: class
 {
     public T Id { get; }
 
@@ -13,7 +13,7 @@ class Person<T>
     }
 }
 
-class MixedPeople<T, K> : Person<T>
+class MixedPeople<T, K> : Person<T> where T :class 
 {
     public K Code { get; }
 
