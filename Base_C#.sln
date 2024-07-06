@@ -383,17 +383,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_02_03_Default", "Glava_0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_02_04_Message", "Glava_07\02_UseInterface\07_02_04_Message\07_02_04_Message.csproj", "{EC84D492-8924-4B49-A04A-B73660B33EF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_02_05_Cast", "Glava_07\02_UseInterface\07_02_05_Cast\07_02_05_Cast.csproj", "{0F529E5C-925E-483E-8CA9-57DCCF1A34B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_02_05_Cast", "Glava_07\02_UseInterface\07_02_05_Cast\07_02_05_Cast.csproj", "{0F529E5C-925E-483E-8CA9-57DCCF1A34B0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_ExplicitInterface", "03_ExplicitInterface", "{5BEF613B-9DC2-45A0-B074-33EB5C745185}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_03_01_ExplicitInterface", "Glava_07\03_ExplicitInterface\07_03_01_ExplicitInterface\07_03_01_ExplicitInterface.csproj", "{514483AE-9CC1-48FF-B9EF-62542E0C1C0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_03_01_ExplicitInterface", "Glava_07\03_ExplicitInterface\07_03_01_ExplicitInterface\07_03_01_ExplicitInterface.csproj", "{514483AE-9CC1-48FF-B9EF-62542E0C1C0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_03_02_ExplicitInterface", "Glava_07\03_ExplicitInterface\07_03_02_ExplicitInterface\07_03_02_ExplicitInterface.csproj", "{28C69D62-7415-4426-8F61-D88D96A5C82A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_03_02_ExplicitInterface", "Glava_07\03_ExplicitInterface\07_03_02_ExplicitInterface\07_03_02_ExplicitInterface.csproj", "{28C69D62-7415-4426-8F61-D88D96A5C82A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_03_03_ExplicitInterface", "Glava_07\03_ExplicitInterface\07_03_03_ExplicitInterface\07_03_03_ExplicitInterface.csproj", "{E205C185-5BE2-4D93-B0F6-1234009F0047}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_03_03_ExplicitInterface", "Glava_07\03_ExplicitInterface\07_03_03_ExplicitInterface\07_03_03_ExplicitInterface.csproj", "{E205C185-5BE2-4D93-B0F6-1234009F0047}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_03_04_AccessModifiers", "Glava_07\03_ExplicitInterface\07_03_04_AccessModifiers\07_03_04_AccessModifiers.csproj", "{592B17E2-AF7F-4C36-BCA3-1378666ED69F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_03_04_AccessModifiers", "Glava_07\03_ExplicitInterface\07_03_04_AccessModifiers\07_03_04_AccessModifiers.csproj", "{592B17E2-AF7F-4C36-BCA3-1378666ED69F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_03_05_AccessModifiers", "Glava_07\03_ExplicitInterface\07_03_05_AccessModifiers\07_03_05_AccessModifiers.csproj", "{A448AC34-E7BB-471C-9DF5-C70D1900A2CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_BaseInterface", "04_BaseInterface", "{B3DC7F9A-14BF-4E3E-8F34-BE7665031800}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_04_01_BaseInterface", "Glava_07\04_BaseInterface\07_04_01_BaseInterface\07_04_01_BaseInterface.csproj", "{ADC7F503-0905-4E8B-BFD5-C98E801BFA23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -997,6 +1003,14 @@ Global
 		{592B17E2-AF7F-4C36-BCA3-1378666ED69F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{592B17E2-AF7F-4C36-BCA3-1378666ED69F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{592B17E2-AF7F-4C36-BCA3-1378666ED69F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A448AC34-E7BB-471C-9DF5-C70D1900A2CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A448AC34-E7BB-471C-9DF5-C70D1900A2CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A448AC34-E7BB-471C-9DF5-C70D1900A2CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A448AC34-E7BB-471C-9DF5-C70D1900A2CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADC7F503-0905-4E8B-BFD5-C98E801BFA23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC7F503-0905-4E8B-BFD5-C98E801BFA23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC7F503-0905-4E8B-BFD5-C98E801BFA23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC7F503-0905-4E8B-BFD5-C98E801BFA23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1192,6 +1206,9 @@ Global
 		{28C69D62-7415-4426-8F61-D88D96A5C82A} = {5BEF613B-9DC2-45A0-B074-33EB5C745185}
 		{E205C185-5BE2-4D93-B0F6-1234009F0047} = {5BEF613B-9DC2-45A0-B074-33EB5C745185}
 		{592B17E2-AF7F-4C36-BCA3-1378666ED69F} = {5BEF613B-9DC2-45A0-B074-33EB5C745185}
+		{A448AC34-E7BB-471C-9DF5-C70D1900A2CF} = {5BEF613B-9DC2-45A0-B074-33EB5C745185}
+		{B3DC7F9A-14BF-4E3E-8F34-BE7665031800} = {DAD120B7-3408-4821-8785-7BFB5F9F2EC6}
+		{ADC7F503-0905-4E8B-BFD5-C98E801BFA23} = {B3DC7F9A-14BF-4E3E-8F34-BE7665031800}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3F8F84CB-18BC-4C02-97A5-06CA99A31ECF}
