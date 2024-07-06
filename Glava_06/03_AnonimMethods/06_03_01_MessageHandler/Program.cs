@@ -2,6 +2,6 @@
 {
     Console.WriteLine(mes);
 };
-handler("Hello world!");
+handler("hello world");
 
 delegate void MessageHandler(string message);

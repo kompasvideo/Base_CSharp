@@ -2,7 +2,6 @@
 {
     Console.WriteLine(mes);
 });
-
 static void ShowMessage(string message, MessageHandler handler)
 {
     handler(message);

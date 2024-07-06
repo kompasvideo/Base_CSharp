@@ -1,8 +1,8 @@
 ﻿Account acc = new Account(100);
-acc.Notify += DisplayMessage;
-acc.Put(20);
-acc.Notify -= DisplayMessage;
-acc.Put(30);
+acc.Notify += DisplayMessage;  // добавляем обработчик DisplayMessage
+acc.Put(20);    // Добавляем на счёт 20
+acc.Notify -= DisplayMessage;  // удаляем обработчик DisplayMessage
+acc.Put(20);    // Добавляем на счёт 20
 
 void DisplayMessage(string message) => Console.WriteLine(message);
 
@@ -12,36 +12,34 @@ class Account
     AccountHandler? notify;
     public event AccountHandler Notify
     {
-        add
-        {
+        add 
+        { 
             notify += value;
             Console.WriteLine($"{value.Method.Name} добавлен");
         }
-        remove
-        {
+        remove 
+        { 
             notify -= value;
             Console.WriteLine($"{value.Method.Name} удален");
         }
     }
-    // сумма на счётк
-    public int Sum { get; private set; }
-    // в конструктуре устанавливаем начальную сумму на счёте
     public Account(int sum) => Sum = sum;
-    // добавление средств на счёт
+    public int Sum { get; private set; }
     public void Put(int sum)
     {
         Sum += sum;
-        notify?.Invoke($"на счёт поступило: {sum}");    // вызов события
+        notify?.Invoke($"На счёт поступило: {sum}");
     }
-    // списание средств со счёта
     public void Take(int sum)
     {
         if (Sum >= sum)
         {
             Sum -= sum;
-            notify?.Invoke($"Со счёта снято: {sum}");    // вызов события
+            notify?.Invoke($"Со счёта снято: {sum}");
         }
         else
-            notify?.Invoke($"Недостаточно денег на счёте. Текущий баланс: {sum}");    // вызов события
+        {
+            notify?.Invoke($"Недостаточно денег на счёте. Текущий баланс: {Sum}");
+        }
     }
 }

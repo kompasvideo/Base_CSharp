@@ -7,8 +7,7 @@
 
 var fn = outerFn;   // fn = innerFn, так как outerFn возвращяет 
                     // innerFn
-// вызываем innerFn
+                    // вызываем innerFn
 fn();
 fn();
 fn();
-
