@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿interface IMovable
+{
+    void Move();
+}
+abstract class Person : IMovable
+{
+    public abstract void Move();
+}
+class Driver : Person
+{
+    public override void Move() => Console.WriteLine("Шофёр везет машину");
+}
