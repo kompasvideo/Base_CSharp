@@ -401,33 +401,45 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_BaseInterface", "04_Base
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_04_01_BaseInterface", "Glava_07\04_BaseInterface\07_04_01_BaseInterface\07_04_01_BaseInterface.csproj", "{ADC7F503-0905-4E8B-BFD5-C98E801BFA23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_04_02_BaseAction", "Glava_07\04_BaseInterface\07_04_02_BaseAction\07_04_02_BaseAction.csproj", "{4994AE0E-3320-47F5-A693-5E65D6D4ACCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_04_02_BaseAction", "Glava_07\04_BaseInterface\07_04_02_BaseAction\07_04_02_BaseAction.csproj", "{4994AE0E-3320-47F5-A693-5E65D6D4ACCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_04_03_OverrideMethod", "Glava_07\04_BaseInterface\07_04_03_OverrideMethod\07_04_03_OverrideMethod.csproj", "{B5BFE199-22A7-4A02-9393-69166165EAF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_04_03_OverrideMethod", "Glava_07\04_BaseInterface\07_04_03_OverrideMethod\07_04_03_OverrideMethod.csproj", "{B5BFE199-22A7-4A02-9393-69166165EAF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_04_04_HideMethod", "Glava_07\04_BaseInterface\07_04_04_HideMethod\07_04_04_HideMethod.csproj", "{B98FAEA2-7ED9-4755-8089-A0B1077770A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_04_04_HideMethod", "Glava_07\04_BaseInterface\07_04_04_HideMethod\07_04_04_HideMethod.csproj", "{B98FAEA2-7ED9-4755-8089-A0B1077770A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_04_05_RepeatAction", "Glava_07\04_BaseInterface\07_04_05_RepeatAction\07_04_05_RepeatAction.csproj", "{BCDBB0C8-4275-4B4B-9BC8-A9FCB05B7364}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_04_05_RepeatAction", "Glava_07\04_BaseInterface\07_04_05_RepeatAction\07_04_05_RepeatAction.csproj", "{BCDBB0C8-4275-4B4B-9BC8-A9FCB05B7364}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_04_06_ExplictInterface", "Glava_07\04_BaseInterface\07_04_06_ExplictInterface\07_04_06_ExplictInterface.csproj", "{9EF205D3-BAEA-4E8E-B824-82F67ACD62A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_04_06_ExplictInterface", "Glava_07\04_BaseInterface\07_04_06_ExplictInterface\07_04_06_ExplictInterface.csproj", "{9EF205D3-BAEA-4E8E-B824-82F67ACD62A9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05_InhertanceInterface", "05_InhertanceInterface", "{97D6A01D-5F73-4705-A7C1-C2B9BFB7FECF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_05_01_Inhertance", "Glava_07\05_InhertanceInterface\07_05_01_Inhertance\07_05_01_Inhertance.csproj", "{A689CC45-2190-4FA6-B782-38D38FDF5E4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_05_01_Inhertance", "Glava_07\05_InhertanceInterface\07_05_01_Inhertance\07_05_01_Inhertance.csproj", "{A689CC45-2190-4FA6-B782-38D38FDF5E4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_05_02_Inhertance", "Glava_07\05_InhertanceInterface\07_05_02_Inhertance\07_05_02_Inhertance.csproj", "{FB540364-0FA8-4627-BF62-9C04261DC4B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_05_02_Inhertance", "Glava_07\05_InhertanceInterface\07_05_02_Inhertance\07_05_02_Inhertance.csproj", "{FB540364-0FA8-4627-BF62-9C04261DC4B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_05_03_Inhertance", "Glava_07\05_InhertanceInterface\07_05_03_Inhertance\07_05_03_Inhertance.csproj", "{F32B56B1-A2A3-42D4-9B6D-B9A0BA1F0B7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_05_03_Inhertance", "Glava_07\05_InhertanceInterface\07_05_03_Inhertance\07_05_03_Inhertance.csproj", "{F32B56B1-A2A3-42D4-9B6D-B9A0BA1F0B7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_05_04_Inhertance", "Glava_07\05_InhertanceInterface\07_05_04_Inhertance\07_05_04_Inhertance.csproj", "{63E21C1E-2098-4F42-96A3-95E46A9DB1FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_05_04_Inhertance", "Glava_07\05_InhertanceInterface\07_05_04_Inhertance\07_05_04_Inhertance.csproj", "{63E21C1E-2098-4F42-96A3-95E46A9DB1FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_05_05_Inhertance", "Glava_07\05_InhertanceInterface\07_05_05_Inhertance\07_05_05_Inhertance.csproj", "{EC976FC8-481E-4213-9CDC-A6AC9F81E663}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_05_05_Inhertance", "Glava_07\05_InhertanceInterface\07_05_05_Inhertance\07_05_05_Inhertance.csproj", "{EC976FC8-481E-4213-9CDC-A6AC9F81E663}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06_InterfaceInGeneric", "06_InterfaceInGeneric", "{CD1655D0-264E-43BF-9870-411C39E24C53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_06_01_InterfaceInGeneric", "Glava_07\06_InterfaceInGeneric\07_06_01_06_InterfaceInGeneric\07_06_01_InterfaceInGeneric.csproj", "{A3855031-6E95-498D-B8E1-8718281760E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_06_01_InterfaceInGeneric", "Glava_07\06_InterfaceInGeneric\07_06_01_06_InterfaceInGeneric\07_06_01_InterfaceInGeneric.csproj", "{A3855031-6E95-498D-B8E1-8718281760E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_06_02_InterfaceInGeneric", "Glava_07\06_InterfaceInGeneric\07_06_02_InterfaceInGeneric\07_06_02_InterfaceInGeneric.csproj", "{E0F30BCE-7B03-4AF1-A32B-EEE275A60C1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_06_02_InterfaceInGeneric", "Glava_07\06_InterfaceInGeneric\07_06_02_InterfaceInGeneric\07_06_02_InterfaceInGeneric.csproj", "{E0F30BCE-7B03-4AF1-A32B-EEE275A60C1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07_ICloneable", "07_ICloneable", "{9B24A822-6903-4B19-912D-E08D405D99BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_07_01_ICloneable", "Glava_07\07_ICloneable\07_07_01_ICloneable\07_07_01_ICloneable.csproj", "{8DC34138-2AC9-4DF1-A859-35FE01390EFC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_07_02_ICloneable", "Glava_07\07_ICloneable\07_07_02_ICloneable\07_07_02_ICloneable.csproj", "{B0C0507D-D100-43AB-A9B2-45E9BFDCD629}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_07_03_ICloneable", "Glava_07\07_ICloneable\07_07_03_ICloneable\07_07_03_ICloneable.csproj", "{9025AEED-351A-4420-8F61-235C0639DCE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_07_04_ICloneable", "Glava_07\07_ICloneable\07_07_04_ICloneable\07_07_04_ICloneable.csproj", "{2DF28BBD-857F-4CEF-A661-EEFD0F8EAC0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_07_05_ICloneable", "Glava_07\07_ICloneable\07_07_05_ICloneable\07_07_05_ICloneable.csproj", "{A1D21E52-2871-417B-9257-812492EFFD94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1087,6 +1099,26 @@ Global
 		{E0F30BCE-7B03-4AF1-A32B-EEE275A60C1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0F30BCE-7B03-4AF1-A32B-EEE275A60C1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0F30BCE-7B03-4AF1-A32B-EEE275A60C1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DC34138-2AC9-4DF1-A859-35FE01390EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DC34138-2AC9-4DF1-A859-35FE01390EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DC34138-2AC9-4DF1-A859-35FE01390EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DC34138-2AC9-4DF1-A859-35FE01390EFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0C0507D-D100-43AB-A9B2-45E9BFDCD629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0C0507D-D100-43AB-A9B2-45E9BFDCD629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0C0507D-D100-43AB-A9B2-45E9BFDCD629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0C0507D-D100-43AB-A9B2-45E9BFDCD629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9025AEED-351A-4420-8F61-235C0639DCE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9025AEED-351A-4420-8F61-235C0639DCE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9025AEED-351A-4420-8F61-235C0639DCE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9025AEED-351A-4420-8F61-235C0639DCE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DF28BBD-857F-4CEF-A661-EEFD0F8EAC0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DF28BBD-857F-4CEF-A661-EEFD0F8EAC0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DF28BBD-857F-4CEF-A661-EEFD0F8EAC0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DF28BBD-857F-4CEF-A661-EEFD0F8EAC0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1D21E52-2871-417B-9257-812492EFFD94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1D21E52-2871-417B-9257-812492EFFD94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1D21E52-2871-417B-9257-812492EFFD94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1D21E52-2871-417B-9257-812492EFFD94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1299,6 +1331,12 @@ Global
 		{CD1655D0-264E-43BF-9870-411C39E24C53} = {DAD120B7-3408-4821-8785-7BFB5F9F2EC6}
 		{A3855031-6E95-498D-B8E1-8718281760E4} = {CD1655D0-264E-43BF-9870-411C39E24C53}
 		{E0F30BCE-7B03-4AF1-A32B-EEE275A60C1D} = {CD1655D0-264E-43BF-9870-411C39E24C53}
+		{9B24A822-6903-4B19-912D-E08D405D99BB} = {DAD120B7-3408-4821-8785-7BFB5F9F2EC6}
+		{8DC34138-2AC9-4DF1-A859-35FE01390EFC} = {9B24A822-6903-4B19-912D-E08D405D99BB}
+		{B0C0507D-D100-43AB-A9B2-45E9BFDCD629} = {9B24A822-6903-4B19-912D-E08D405D99BB}
+		{9025AEED-351A-4420-8F61-235C0639DCE1} = {9B24A822-6903-4B19-912D-E08D405D99BB}
+		{2DF28BBD-857F-4CEF-A661-EEFD0F8EAC0B} = {9B24A822-6903-4B19-912D-E08D405D99BB}
+		{A1D21E52-2871-417B-9257-812492EFFD94} = {9B24A822-6903-4B19-912D-E08D405D99BB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3F8F84CB-18BC-4C02-97A5-06CA99A31ECF}
