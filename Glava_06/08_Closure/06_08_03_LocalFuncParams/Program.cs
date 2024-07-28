@@ -12,3 +12,6 @@ Operation Multiply(int n)
     return Inner;
 }
 delegate int Operation(int n);
+
+
+
