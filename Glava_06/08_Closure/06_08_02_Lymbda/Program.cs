@@ -11,6 +11,3 @@ var fn = outerFn;   // fn = innerFn, так как outerFn возвращяет
 fn();
 fn();
 fn();
-
-
-

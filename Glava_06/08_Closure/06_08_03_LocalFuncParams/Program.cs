@@ -13,5 +13,3 @@ Operation Multiply(int n)
 }
 delegate int Operation(int n);
 
-
-
