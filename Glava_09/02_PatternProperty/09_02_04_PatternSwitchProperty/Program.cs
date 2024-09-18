@@ -9,7 +9,6 @@ Person pablo = new Person { Language = "spanish", Status = "user", Name = "Pablo
 Console.WriteLine(GetMessage(pablo));   // Unknown language: spanish
 
 Console.WriteLine(GetMessage(null));   // null
-
 string GetMessage(Person? p) => p switch
 {
     { Language: "german", Status: "admin" } => "Hello, admin!",
