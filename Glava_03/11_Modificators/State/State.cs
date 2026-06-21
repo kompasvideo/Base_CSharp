@@ -3,7 +3,7 @@
     class State
     {
         // все равно, что private string defaultVaar
-        string defaultVaar = "default";
+        string defaultVar = "default";
         // поле досткпно только из текущего класса
         private string privateVar = "privaate";
         // доступно из текущего класса и производных классов, которые определены в этом же проекте
@@ -18,7 +18,7 @@
         public string publicVar = "public";
 
         // по умолчанию имеет модификатор private
-        void Print() => Console.WriteLine(defaultVaar);
+        void Print() => Console.WriteLine(defaultVar);
 
         // метод доступен только из текущего класса
         private void PrintPrivate() => Console.WriteLine(privateVar);
