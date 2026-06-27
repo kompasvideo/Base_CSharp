@@ -6,7 +6,7 @@ Console.WriteLine(operation(10, 4));                // 6
 
 operation = SelectOperation(OperationType.Multiply);
 Console.WriteLine(operation(10, 4));                // 40
-int? res = operation?(10, 4);
+var res = operation?.Invoke(10, 4);
 
 Operation SelectOperation(OperationType opType)
 {
